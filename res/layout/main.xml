@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="wrap_content">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		<TextView android:text="@string/main_useinperiod" android:background="#696969"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<TableLayout android:layout_height="fill_parent"
+			android:id="@+id/reportTable" android:layout_width="fill_parent"
+			android:stretchColumns="0,1">
+			<TableRow>
+				<TextView android:text="Operadora" android:gravity="left"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				<TextView android:text="Tempo Total" android:gravity="right"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			</TableRow>
+			<View android:layout_width="fill_parent" android:layout_height="1px"
+				android:background="#515151" />
+		</TableLayout>
+		<TextView android:text="Resumo" android:background="#696969"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<TableLayout android:layout_height="fill_parent"
+			android:id="@+id/reportTable" android:layout_width="fill_parent"
+			android:stretchColumns="0,1,2">
+			<TableRow>
+				<ImageView android:layout_gravity="right"
+					android:layout_height="25dp" android:layout_width="25dp"
+					android:src="@drawable/ic_claro" android:gravity="left" />
+				<TextView android:id="@+id/lblTotalClaro"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:gravity="center" android:padding="3dip" />
+				<TextView android:id="@+id/lblTotalPercentClaro"
+					android:text="76" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:gravity="right"
+					android:padding="3dip" />
+			</TableRow>
+			<TableRow>
+				<TextView android:text="op+fix" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:gravity="center"
+					android:padding="3dip" />
+				<TextView android:id="@+id/lblTotalOthers" android:text="HH:MM:SS"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:gravity="center" android:padding="3dip" />
+				<TextView android:id="@+id/lblTotalPercentOthers"
+					android:text="76" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:gravity="right"
+					android:padding="3dip" />
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+</ScrollView>

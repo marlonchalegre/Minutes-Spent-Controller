@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Controle de Planos</string>
+    <string name="KEY_MAINACTIVITY">fromMainActivity</string>
+    <string name="KEY_LASTID">lastCallID</string>
+    <string name="KEY_COUNT">previousStateOffHook</string>
+    <string name="PREFS_NAME">br.pe.rec.mcp.PREFS</string> 
+    
+    <!-- MAIN SCREEN -->
+    <string name="main_useinperiod">Uso no período</string>
+    <string name="main_operator">Operadora</string>   
+    <string name="main_summary">Resumo</string>   
+    <string name="main_op_fix">Outros</string>
+    
+    <!-- MENU -->
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_update">Atualizar</string>
+    
+    <!-- MENU SCREEN -->
+    
+    <!-- ABOUT SCREEN -->
+     
+</resources>

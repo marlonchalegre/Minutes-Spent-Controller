@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<Preference android:title="Data da Fatura"
+		android:summary="Escolha a data para reiniciar a contagem."
+		android:key="customPref" />
+	<PreferenceCategory android:title="Limites de Tempo (em minutos)">
+		<EditTextPreference android:name="Claro"
+			android:title="Claro" android:key="editClaroPref" />
+		<EditTextPreference android:name="Outras Operadoras"
+			android:title="Outras Operadoras" android:key="editOutrasOpPref" />
+		<EditTextPreference android:name="Fixo"
+			android:title="Fixo" android:key="editFixoPref" />
+	</PreferenceCategory>
+</PreferenceScreen>
